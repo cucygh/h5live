@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>video.js</title>
+    <link rel="stylesheet" href="./video-js.min.css">
+    <script src="./video.min.js" charset="utf-8"></script>
+    <script src="./videojs-contrib-hls.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <video id="my-player" class="video-js" controls>
+        <source src="http://live.streamingfast.net/osmflivech4.m3u8" type="application/x-mpegURL">
+        <p class="vjs-no-js">
+          not support
+        </p>
+    </video>
+    <script type="text/javascript">
+      var player = videojs('my-player',{
+        width:400,
+        heigh:200
+      });
+    </script>
+  </body>
+</html>

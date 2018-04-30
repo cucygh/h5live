@@ -1,0 +1,58 @@
+html *,body *{
+  padding: 0;
+  margin: 0;
+}
+.player{
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+.player video{
+  width: 100%;
+  height: 100%;
+}
+.player .btn{
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -35px auto  auto -35px;
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  line-height: 40px;
+}
+.player .btn:hover{
+  background: rgba(255,255,255,0.7);
+}
+.player .btn:before{
+  border: 20px solid #ddd;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  content: " ";
+  display: block;
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+}
+.player .btn:before:hover{
+  border-left-color: #fff;
+}
+
+.player.pause .btn{
+  display: block;
+}
+
+.player .state{
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-size: 14px;
+  color: #000;
+}
+.player.pause .state{
+  display: none;
+}
