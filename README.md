@@ -38,7 +38,7 @@
     主要提示用于安装 ffmpeg 和 nginx 的教程以及 server 的使用方法。
 
     - [安装 ffmpeg 教程](./tools/install-ffmpeg.md)
-    - [安装 nginx 教程](./tools/intall-nginx.md)
+    - [安装 nginx 教程](./tools/install-nginx.md)
     - [nginx 配置文件](./tools/nginx.conf)
     - [直播流第一种方法](./tools/stream-push.md)
     - [直播流第二种方法 server 使用方法](./tools/server/stream-push.md)
