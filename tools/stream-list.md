@@ -1,6 +1,7 @@
 ## HLS 直播流
 
-1. http://live.streamingfast.net/osmflivech4.m3u8
-2. http://live.streamingfast.net/osmflivech5.m3u8
-3. http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
-4. http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch5-2.m3u8
+- CCTV1高清：http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
+- CCTV3高清：http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
+- CCTV5高清：http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
+- CCTV5+高清：http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
+- CCTV6高清：http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
